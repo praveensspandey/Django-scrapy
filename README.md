@@ -3,11 +3,11 @@ This project scraps the top rated movies from IMDb using Scrapy.
 This also connect Scrapy and Django together
 the scraped data is added to the python model and saved into data base.
 
-# Requirements
+## Requirements
 Inoder to run this project install
 Django and scrapy 
 
-# To run 
+## To run 
 First Go to Scraper project director 
 eg.
 
