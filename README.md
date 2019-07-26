@@ -10,14 +10,20 @@ Django and scrapy
 # To run 
 First Go to Scraper project director 
 eg.
+
 \webscraping\Webscraper\webscraping\scraper\
 
 run command 
-scrapy crawl crawler
+
+**scrapy crawl crawler**
+
 This will pull all the data from the IMDb site
 
 Then run Django runserver command
 Change to 
+
 \webscraping\Webscraper\webscraping\
+
 and run 
-python manage.py runserver
+
+**python manage.py runserver**
