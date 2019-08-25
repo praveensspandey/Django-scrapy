@@ -13,10 +13,12 @@ import os
 import sys
 import django
 
+#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-DJANGO_PROJECT_PATH='D:\projects\webscraping\Webscraper\webscraping'
+#DJANGO_PROJECT_PATH= os.path.join(BASE_DIR, 'webscraping')
+DJANGO_PROJECT_PATH= os.path.abspath('webscraping').replace('\\','/')
 sys.path.insert(0, DJANGO_PROJECT_PATH)
-#sys.path.append(os.path.dirname(os.path.abspath('.')))
+#sys.path.append(os.path.dirname(DJANGO_PROJECT_PATH))
 os.environ['DJANGO_SETTINGS_MODULE'] ='webscraping.settings'
 
 
